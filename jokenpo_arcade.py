@@ -143,7 +143,7 @@ elif vitorias_jog1 > vitorias_CPU:
     sleep(1)
     print(f"\nParabéns {jog1} você foi o vencedor da melhor de 3!\n")
     print("-=" * 40)
-else:
+elif vitorias_CPU > vitorias_jog1:
     sleep(1)
     print(f"\nParabéns CPU você foi o vencedor da melhor de 3!\n")
     print("-=" * 40)
